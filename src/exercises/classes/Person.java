@@ -1,4 +1,4 @@
-package exercises.classes;
+package exercises.classes; 
 
 public class Person {
 
@@ -17,8 +17,14 @@ public class Person {
 	public void writeName() {
 		System.out.println("My name is " + name);
 	}
-        public void setName(String name) {
-             this.name = name;
-        
-        }
-} 
+
+	public String getName() {
+		
+		return null;
+	}
+
+	public void setName(String name2) {
+		
+		
+	}
+}
