@@ -1,39 +1,47 @@
 package Rectangle;
 
 public class Employee {
-    private int id;{
-    private String lastName
-    private String firstName
-    }
-    private String firstName() {
-		return null;
-    	
-    	
-    }
-    private String lastName() {
-		return null;
+    private int id;
+    private String lastName;  
+    private String firstName; 
+    private int salary;
     
+    public Employee (int id, String firstName, String lastName, int salary) {
+    	this.id = id; 
+    	this.firstName = firstName;
+    	this.lastName = lastName;
+    	this.salary = salary; 
     	
     }
-    
     
     
     public int getID() {
 		return id;
     }
     public String getfirstName() {
-		return firstName();
+		return firstName;
     	
     }
     public String getlastName() {
-		return firstName();
+		return lastName;
  }
     public String getName() {
-		return null;	
+		return getName();	
     }
     public int getSalary() {
-		return id;
+		return salary;
     	
     }
-    
+    public void setSalary(int salary) {
+    	
+		 
+    }
+    public int getAnnualSalary() {
+		return  salary * 12;
+    	
+    }
+    public int raiseSalary(int percent) {
+    	this.salary = this.salary * percent;
+    	return this.salary;
+    }
 }  
