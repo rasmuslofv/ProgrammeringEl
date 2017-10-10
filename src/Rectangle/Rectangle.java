@@ -24,6 +24,10 @@ public class Rectangle {
 		return length;
 	}
 
+	public void setLength(float length) {
+		
+	}
+	
 	public void setWidth(float width) {
 		this.width = width;
 	}
@@ -36,5 +40,8 @@ public class Rectangle {
 	public double getPerimeter() {
 		return 2*(width + length);
 
-	}
+	 }
+   public String toString() {
+	   return "Rectangle[length=" + this.length + ", width=" + this.width + "]";
+   }
 }

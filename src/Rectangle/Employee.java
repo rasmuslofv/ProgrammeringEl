@@ -33,15 +33,16 @@ public class Employee {
     	
     }
     public void setSalary(int salary) {
-    	
-		 
+    	this.salary = salary;
     }
     public int getAnnualSalary() {
 		return  salary * 12;
-    	
     }
     public int raiseSalary(int percent) {
     	this.salary = this.salary * percent;
     	return this.salary;
+    }
+    public String toString() {
+    	return "Employee[id= " + this.id + ", name="+ firstName + " " + lastName + ", salary=" + salary + "]";	
     }
 }  
