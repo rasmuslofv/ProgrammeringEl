@@ -33,11 +33,15 @@ public class InvoiceItem {
     	
     }
     public void setUnitPrice(double unitPrice) {
-    	return unitPrice * qty;
+    	
     }
     public double getTotal; {
     	
     }
     
+    public String toString() {
+    	
+     return "InvoiceItem
     }
+    
 }

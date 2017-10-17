@@ -1,6 +1,4 @@
-package Main;
-
-import Rectangle.Rectangle;
+package Rectangle;
 
 public class Main {
 
@@ -16,6 +14,14 @@ public class Main {
 	  System.out.println( rectangle1.getArea() );
 	  
 	  System.out.println(rectangle1.toString() );
+	  
+	  
+	  Employee employee1 = new Employee(15, "Pickle", "Rick", 3000);
+	  
+	  System.out.println( employee1.getSalary() );
+	  System.out.println( employee1.getAnnualSalary());
+      System.out.println( employee1.raiseSalary(20));
+	  System.out.println( employee1.toString() );
+	
 	}
-    
-}
+}	
