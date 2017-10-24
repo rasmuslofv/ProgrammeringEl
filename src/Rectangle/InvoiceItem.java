@@ -11,7 +11,7 @@ public class InvoiceItem {
             this.desc = desc;
             this.qty = qty;
             this. unitPrice = unitPrice;
-            
+             
      }
       public String getID() {
 		return id;
@@ -41,7 +41,7 @@ public class InvoiceItem {
     
     public String toString() {
     	
-     return "InvoiceItem
+     return "InvoiceItem[
     }
     
 }
