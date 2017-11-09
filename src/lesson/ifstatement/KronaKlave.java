@@ -14,10 +14,15 @@ public class KronaKlave {
         System.out.println("Select Rick or Morten:");
         String usersPick = usersGuess.nextLine().toLowerCase();
  
+        int wins = 0;
+        int loses = 0;
+        
         // System.out.println(usersPick);
 	
         
         // Computers random selector. 
+
+		
         Random randomGenerator = new Random();
         boolean coinFlipValue = randomGenerator.nextBoolean();
         
@@ -36,7 +41,7 @@ public class KronaKlave {
 	    	System.out.println("You lost!");	
 	    
 	    }
-	   
+	    System.out.println("wins " + wins + " : loses " + loses);
    }
 }	
 	
