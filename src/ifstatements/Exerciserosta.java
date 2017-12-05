@@ -10,7 +10,7 @@ public class Exerciserosta {
 	    System.out.println("Ange ålder: ");
 	    int number = usersScanner.nextInt();
 
-	    // om man är äldre än 17 får man rösta
+	    // om man är äldre en 17 får man rösta
 	    if (number > 17 ) {
 	    	System.out.println("Du får rösta");
 	 // annars får man inte rösta

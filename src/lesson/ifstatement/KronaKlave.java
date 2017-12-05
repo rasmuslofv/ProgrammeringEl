@@ -3,6 +3,8 @@ package lesson.ifstatement;
 import java.util.Random;
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 public class KronaKlave {
 
 	
@@ -16,9 +18,9 @@ public class KronaKlave {
  
         int wins = 0;
         int loses = 0;
-        
+         
         // System.out.println(usersPick);
-	
+	 
         
         // Computers random selector. 
 
@@ -35,13 +37,13 @@ public class KronaKlave {
 	    }	
 	
 	    if (coinFlipValue == true && usersPick.equals("rick") || coinFlipValue == false && usersPick.equals("morten")) {
-	        System.out.println("You won!");
-	   
-	         } else {
-	    	System.out.println("You lost!");	
+	     
 	    
 	    }
 	    System.out.println("wins " + wins + " : loses " + loses);
    }
-}	
+
+ }	
+	
+
 	
